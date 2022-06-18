@@ -1,1 +1,45 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+/*
+?=============================================================================================
+!Table of Content
+?=============================================================================================
+
+    ? 1 General Stylization
+*/
+/*
+?=============================================================================================
+? 1 General Stylization
+*/
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.background {
+  background-color: #232324;
+  width: 100vmax;
+  height: 100vmin;
+}
+
+.content {
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 100vmin;
+  width: 35vmax;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content h1 {
+  text-align: center;
+  letter-spacing: 0.75vmax;
+}
+.content button {
+  width: 20vmax;
+  height: 4vmin;
+  margin: 1vmin auto;
+  color: #0076ec;
+}/*# sourceMappingURL=style.css.map */
