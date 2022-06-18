@@ -7,8 +7,11 @@
     <title>Mafia</title>
 </head>
 <body>
-    <div class="contentOne">
-
+    <div class="background"></div>
+    <div class="content">
+        <h1>Mafia, The Game</h1>
+        <button>Join Game</button>
+        <button>Create Game</button>
     </div>
 
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
@@ -20,7 +23,7 @@
         //CALL REACT FUNCTIONS HERE
         // PRECOMPILE SCRIPT FOR PRODUCTION - https://babeljs.io/docs/setup/
         const element = <Board />;
-        ReactDOM.render(element, document.querySelector(".contentOne"));
+        // ReactDOM.render(element, document.querySelector(".content"));
     </script>
 </body>
 </html>
