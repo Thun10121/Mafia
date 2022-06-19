@@ -14,20 +14,42 @@ body {
   overflow: hidden;
 }
 
-.background {
-  background-color: #232324;
-  width: 100vmax;
+.container {
   height: 100vmin;
+  width: 100vmax;
+  display: grid;
+  grid-template-columns: 35vmax auto;
+}
+
+.background {
+  background: #232324;
+  display: flex;
+  justify-content: center;
+}
+.background div {
+  position: relative;
+}
+.background h1 {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+  color: white;
+  letter-spacing: 2vmin;
+  font-size: 4vmax;
+  white-space: nowrap;
+  z-index: 1;
+}
+.background img {
+  position: absolute;
+  aspect-ratio: 1/1;
+  height: 80vmin;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .content {
-  z-index: 1;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  height: 100vmin;
-  width: 35vmax;
   background-color: azure;
   display: flex;
   flex-direction: column;
@@ -44,4 +66,23 @@ body {
   color: #0076ec;
   border: 0.5vmin solid #0076ec;
   border-radius: 0.5vmin;
+}
+
+.update {
+  aspect-ratio: 1/1;
+  height: 8vmin;
+  position: absolute;
+  margin: 3vmin;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  border: 0.75vmin solid #0076ec;
+  padding: 1vmin;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+}
+.update p {
+  color: black;
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */

@@ -1,5 +1,5 @@
 //change name of the tile later
-class Board extends React.Component {
+class Game extends React.Component {
     render() {
         return (
             <>

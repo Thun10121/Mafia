@@ -8,13 +8,25 @@
     <title>Mafia</title>
 </head>
 <body>
-    <div class="background"></div>
-    <div class="content">
-        <h1>Mafia, The Game</h1>
-        <button>Join Game</button>
-        <button>Create Game</button>
+    <div class="container">
+        <div class="content">
+            <button>Join Game</button>
+            <button>Create Game</button>
+            <button>Tutorial</button>
+            <button>Roles</button>
+        </div>
+        <div class="background">
+            <div>
+                <h1>Mafia, The Game</h1>
+                <img src="/photos/wolf.png">
+            </div>
+        </div>
     </div>
 
+    <div class="update">
+        <p>updates</p>
+    </div>
+    
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -23,7 +35,7 @@
     <script type="text/babel">
         //CALL REACT FUNCTIONS HERE
         // PRECOMPILE SCRIPT FOR PRODUCTION - https://babeljs.io/docs/setup/
-        const element = <Board />;
+        // const element = <Game />;
         // ReactDOM.render(element, document.querySelector(".content"));
     </script>
 </body>
