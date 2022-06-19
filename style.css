@@ -42,4 +42,6 @@ body {
   height: 4vmin;
   margin: 1vmin auto;
   color: #0076ec;
+  border: 0.5vmin solid #0076ec;
+  border-radius: 0.5vmin;
 }/*# sourceMappingURL=style.css.map */

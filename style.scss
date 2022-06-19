@@ -48,5 +48,7 @@ body{
         height: 4vmin;
         margin: 1vmin auto;
         color: $accent;
+        border: .5vmin solid $accent;
+        border-radius: .5vmin;
     }
 }
